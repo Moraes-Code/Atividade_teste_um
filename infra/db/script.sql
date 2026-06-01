@@ -1,6 +1,6 @@
-CREATE DATABASE sistema_simples1;
+CREATE DATABASE sistema_simples;
 
-USE sistema_simples1;
+USE sistema_simples;
 
 CREATE TABLE usuario (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -8,4 +8,4 @@ CREATE TABLE usuario (
     senha VARCHAR(255) NOT NULL
 );
 
-INSERT INTO usuario (usuario, senha) VALUE ('admin', '123');
+INSERT INTO usuario (usuario, senha) VALUE ('admin','123');
